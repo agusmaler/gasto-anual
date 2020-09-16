@@ -10,11 +10,11 @@ ___
 
 
 > Implementá los métodos de Rubro:
-● public Rubro(String nombre)  Es el constructor. Recibe el nombre o descripción del rubro. Debe inicializar el arreglode importes.  
-● private void inicializarGastos() Inicializa el arreglo de importes. 
-● public void agregarGasto(Mes mes, double importe)  Acumula el importe en la posición correspondiente al mes indicado. 
-● public getNombre()  Devuelve el nombre del Rubro. 
-● public double getTotalGastos(Mes mes)  Devuelve el importe acumulado de gastos para el mes indicado.
+* public Rubro(String nombre)  Es el constructor. Recibe el nombre o descripción del rubro. Debe inicializar el arreglode importes.  
+* private void inicializarGastos() Inicializa el arreglo de importes. 
+* public void agregarGasto(Mes mes, double importe)  Acumula el importe en la posición correspondiente al mes indicado. 
+* public getNombre()  Devuelve el nombre del Rubro. 
+* public double getTotalGastos(Mes mes)  Devuelve el importe acumulado de gastos para el mes indicado.
 
 Implementá los métodos de GastoAnual: 
 ● public GastoAnual()  Es el constructor, e inicializa la colección de Rubros.
